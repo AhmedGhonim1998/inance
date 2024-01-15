@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 @import "./variables";
 @import "./methods";
-
+/*****************************************start nav styles*******************************************/
 .navbar{
     background-color: $first_nav_color;
     .navbar_icons{
@@ -10,3 +11,7 @@
         color:$white_color;
     }
 }
+/*****************************************end nav styles*******************************************/
+/*****************************************start rebair styles*******************************************/
+/*****************************************end rebair styles*******************************************/
+

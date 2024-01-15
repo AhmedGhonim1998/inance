@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+/*****************************************start nav styles*******************************************/
 .navbar {
   background-color: #000000;
 }
@@ -7,5 +9,9 @@
 .navbar .navbar_txt {
   color: white;
 }
+
+/*****************************************end nav styles*******************************************/
+/*****************************************start rebair styles*******************************************/
+/*****************************************end rebair styles*******************************************/
 
 /*# sourceMappingURL=sass.css.map */
