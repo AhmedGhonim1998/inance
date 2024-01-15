@@ -15,6 +15,16 @@ body {
   background-color: #0355cc;
 }
 
+.btn-secondary {
+  background-color: #0355cc;
+  border: none;
+  border-radius: 0;
+  width: 150px;
+}
+.btn-secondary:hover {
+  background-color: #ff8a1d;
+}
+
 h4 {
   color: #0355cc;
 }
@@ -102,5 +112,18 @@ h1 {
 .repair_imp_main {
   transform: translateY(-50%);
 }
+
+/***********************************end rebair,improve, maitain section-****************************/
+/*****************************************start about us styles*******************************************/
+.left_about_content p {
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+.right_about_content img {
+  width: 600px;
+}
+
+/*****************************************end about us styles*******************************************/
 
 /*# sourceMappingURL=sass.css.map */

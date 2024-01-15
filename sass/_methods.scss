@@ -12,6 +12,15 @@ body {
     background-color: $blue_color;
   }
 }
+.btn-secondary{
+    background-color: $blue_color;
+    border: none;
+    border-radius: 0;
+    width: 150px;
+    &:hover{
+        background-color: $orange_color;
+    }
+}
 h4 {
   color: $blue_color;
 }
@@ -26,7 +35,6 @@ h1 {
   border-radius: 0;
   transition: 0.2s;
   cursor: pointer;
-  
   &:hover {
     background-color: $orange_color;
     color: $white_color;
