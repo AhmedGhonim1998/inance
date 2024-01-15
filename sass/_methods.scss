@@ -1,0 +1,17 @@
+body{
+    height: 5000px;
+}
+.btn-primary{
+    background-color:$orange_color;
+    transition: .2s;
+    border: none;
+    &:hover{
+        background-color: $blue_color;
+    }
+}
+h4{
+    color: $blue_color;
+}
+h1{
+    color: $blue_color;
+}

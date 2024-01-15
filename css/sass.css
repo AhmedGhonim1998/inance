@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+body {
+  height: 5000px;
+}
+
+.btn-primary {
+  background-color: #ff8a1d;
+  transition: 0.2s;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0355cc;
+}
+
+h4 {
+  color: #0355cc;
+}
+
+h1 {
+  color: #0355cc;
+}
+
 /*****************************************start nav styles*******************************************/
 .navbar {
   background-color: #000000;
@@ -11,7 +32,21 @@
 }
 
 /*****************************************end nav styles*******************************************/
-/*****************************************start rebair styles*******************************************/
+/*****************************************start rebair 
+styles*******************************************/
+.rebair_section {
+  background-color: #d1e3ff;
+}
+.rebair_section h1 {
+  width: 40%;
+}
+.rebair_section p {
+  width: 90%;
+}
+.rebair_section a:hover {
+  color: #0355cc;
+}
+
 /*****************************************end rebair styles*******************************************/
 
 /*# sourceMappingURL=sass.css.map */
