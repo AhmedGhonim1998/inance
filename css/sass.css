@@ -71,6 +71,23 @@ h1 {
   .right-content > img {
     width: 90%;
   }
+  .about_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_content .left_about_content {
+    margin-bottom: 2%;
+    width: 85%;
+  }
+  .about_content .left_about_content p {
+    width: 100%;
+  }
+  .about_content .right_about_content {
+    width: 85%;
+  }
+  .about_content .right_about_content img {
+    width: 85%;
+  }
 }
 @media (max-width: 600px) {
   :root {

@@ -65,6 +65,23 @@ h1 {
       width: 90%;
     }
   }
+  .about_content{
+    flex-direction: column;
+    align-items: center;
+    .left_about_content{
+        margin-bottom: 2%;
+        width: 85%;
+        p{
+            width: 100%;
+        }
+    }
+    .right_about_content{
+       width: 85%;
+        img{
+            width:85%;
+        }
+    }
+  }
 }
 @media (max-width: 600px) {
   :root {
