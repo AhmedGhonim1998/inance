@@ -41,12 +41,19 @@ styles*******************************************/
   width: 40%;
 }
 .rebair_section p {
-  width: 90%;
+  width: 80%;
 }
 .rebair_section a:hover {
   color: #0355cc;
 }
 
 /*****************************************end rebair styles*******************************************/
+/*****************************************media quieries*******************************************/
+@media (max-width: 1000px) {
+  .rebair_content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=sass.css.map */
