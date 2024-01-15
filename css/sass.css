@@ -1,3 +1,11 @@
-
+.navbar {
+  background-color: #000000;
+}
+.navbar .navbar_icons {
+  color: #ff8a1d;
+}
+.navbar .navbar_txt {
+  color: white;
+}
 
 /*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,12 @@
+@import "./variables";
+@import "./methods";
+
+.navbar{
+    background-color: $first_nav_color;
+    .navbar_icons{
+        color: $orange_color;
+    }
+    .navbar_txt{
+        color:$white_color;
+    }
+}
