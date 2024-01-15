@@ -7,6 +7,7 @@ body {
   background-color: #ff8a1d;
   transition: 0.2s;
   border: none;
+  width: 150px;
 }
 .btn-primary:hover {
   background-color: #0355cc;
@@ -20,6 +21,31 @@ h1 {
   color: #0355cc;
 }
 
+@media (max-width: 1000px) {
+  :root {
+    font-size: 15px;
+  }
+  .rebair_content {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .rebair_content .left_content {
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .rebair_content .left_content h1 {
+    width: 81%;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+  .rebair_navBar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 /*****************************************start nav styles*******************************************/
 .navbar {
   background-color: #000000;
@@ -49,11 +75,5 @@ styles*******************************************/
 
 /*****************************************end rebair styles*******************************************/
 /*****************************************media quieries*******************************************/
-@media (max-width: 1000px) {
-  .rebair_content {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
 /*# sourceMappingURL=sass.css.map */
