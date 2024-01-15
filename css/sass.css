@@ -30,7 +30,6 @@ h1 {
   border-radius: 0;
   transition: 0.2s;
   cursor: pointer;
-  transform: translateY(-50%);
 }
 .repair_imp_main_card:hover {
   background-color: #ff8a1d;
@@ -99,5 +98,9 @@ h1 {
 }
 
 /*****************************************end rebair styles*******************************************/
+/***********************************start rebair,improve, maitain section-****************************/
+.repair_imp_main {
+  transform: translateY(-50%);
+}
 
 /*# sourceMappingURL=sass.css.map */
