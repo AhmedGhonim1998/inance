@@ -1,43 +1,69 @@
-body{
-    height: 5000px;
+body {
+  height: 5000px;
+  box-sizing: border-box;
 }
-.btn-primary{
-    background-color:$orange_color;
-    transition: .2s;
-    border: none;
-    width: 150px;
-    &:hover{
-        background-color: $blue_color;
-    }
+/*****************************************glopal styles*******************************************/
+.btn-primary {
+  background-color: $orange_color;
+  transition: 0.2s;
+  border: none;
+  width: 150px;
+  &:hover {
+    background-color: $blue_color;
+  }
 }
-h4{
-    color: $blue_color;
+h4 {
+  color: $blue_color;
 }
-h1{
-    color: $blue_color;
+h1 {
+  color: $blue_color;
 }
+.repair_imp_main_card {
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(114, 111, 111, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius: 0;
+  transition: 0.2s;
+  cursor: pointer;
+  transform: translateY(-50%);
+  &:hover {
+    background-color: $orange_color;
+    color: $white_color;
+  }
+  img {
+    width: 25%;
+  }
+}
+/*****************************************media quieries*******************************************/
 @media (max-width: 1000px) {
-    :root {
-      font-size: 15px;
-    }
-    .rebair_content {
-      flex-direction: column !important;
+  :root {
+    font-size: 15px;
+  }
+  .rebair_content {
+    flex-direction: column !important;
+    align-items: center;
+    .left_content {
       align-items: center;
-      .left_content {
-        align-items: center;
-        margin-bottom: 5%;
-        h1 {
-          width: 81%;
-        }
+      margin-bottom: 5%;
+      h1 {
+        width: 81%;
       }
     }
   }
-  @media (max-width: 600px) {
-    :root {
-      font-size: 12px;
-    }
-    .rebair_navBar {
-      flex-direction: column;
-      align-items: center;
+  .right-content {
+    width: 90%;
+    > img {
+      width: 90%;
     }
   }
+}
+@media (max-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+  .rebair_navBar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
