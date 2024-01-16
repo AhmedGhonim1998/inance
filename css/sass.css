@@ -107,6 +107,16 @@ h1 {
     width: 80% !important;
   }
 }
+@media (max-width: 700px) {
+  .our_services_cards {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .our_services_cards .our_services_card {
+    margin-bottom: 10% !important;
+    width: 50% !important;
+  }
+}
 @media (max-width: 600px) {
   :root {
     font-size: 12px;
@@ -199,5 +209,11 @@ h1 {
 }
 
 /*****************************************end home services*******************************************/
+/*****************************************start our services syles************************************/
+.our_services_card .img_content p:first-child {
+  font-weight: bold;
+}
+
+/*****************************************end our services syles**************************************/
 
 /*# sourceMappingURL=sass.css.map */

@@ -101,6 +101,16 @@ h1 {
     }
   }
 }
+@media (max-width:700px) {
+  .our_services_cards{
+    flex-direction: column !important;
+    align-items: center;
+    .our_services_card{
+      margin-bottom: 10% !important;
+      width: 50% !important;
+  }
+}
+}
 @media (max-width: 600px) {
   :root {
     font-size: 12px;
