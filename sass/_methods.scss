@@ -29,6 +29,20 @@ h1 {
   color: $blue_color;
 }
 .repair_imp_main_card {
+ @extend %card_styles;
+  img {
+    width: 25%;
+  }
+}
+.checked{
+  color: $orange_color;
+}
+.card_client_say{
+  width: 40% !important;
+  @extend %card_styles;
+}
+/*******************************************inheritance styles*******************************************/
+%card_styles{
   width: 25%;
   box-shadow: 0 4px 8px 0 rgba(114, 111, 111, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -39,9 +53,6 @@ h1 {
   &:hover {
     background-color: $orange_color;
     color: $white_color;
-  }
-  img {
-    width: 25%;
   }
 }
 /*****************************************start media quieries*******************************************/

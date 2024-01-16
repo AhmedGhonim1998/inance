@@ -34,7 +34,20 @@ h1 {
   color: #0355cc;
 }
 
-.repair_imp_main_card {
+.repair_imp_main_card img {
+  width: 25%;
+}
+
+.checked {
+  color: #ff8a1d;
+}
+
+.card_client_say {
+  width: 40% !important;
+}
+
+/*******************************************inheritance styles*******************************************/
+.repair_imp_main_card, .card_client_say {
   width: 25%;
   box-shadow: 0 4px 8px 0 rgba(114, 111, 111, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: none;
@@ -42,12 +55,9 @@ h1 {
   transition: 0.2s;
   cursor: pointer;
 }
-.repair_imp_main_card:hover {
+.repair_imp_main_card:hover, .card_client_say:hover {
   background-color: #ff8a1d;
   color: white;
-}
-.repair_imp_main_card img {
-  width: 25%;
 }
 
 /*****************************************start media quieries*******************************************/
@@ -215,5 +225,18 @@ h1 {
 }
 
 /*****************************************end our services syles**************************************/
+/*****************************************start our client syles**************************************/
+.img-box {
+  width: 125px;
+  min-width: 125px;
+  margin-right: 15px;
+}
+.img-box img {
+  border-radius: 50% !important;
+}
+
+.client_detail {
+  width: 80%;
+}
 
 /*# sourceMappingURL=sass.css.map */
