@@ -112,7 +112,7 @@ h1 {
     }
   }
 }
-@media (max-width:700px) {
+@media (max-width:800px) {
   .our_services_cards{
     flex-direction: column !important;
     align-items: center;
@@ -120,6 +120,15 @@ h1 {
       margin-bottom: 10% !important;
       width: 50% !important;
   }
+}
+.our_client_say_content{
+  flex-direction: column;
+  align-items: center;
+  .card_client_say{
+    margin-bottom: 2%;
+    width: 60% !important;
+    
+}
 }
 }
 @media (max-width: 600px) {
@@ -147,6 +156,12 @@ h1 {
       p{
         width: 100% !important;
       }
+    }
+  }
+  .img-box{
+    width: 50% !important;
+    img{
+      width: 70% !important;
     }
   }
 }

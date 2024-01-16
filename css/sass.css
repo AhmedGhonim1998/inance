@@ -117,7 +117,7 @@ h1 {
     width: 80% !important;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .our_services_cards {
     flex-direction: column !important;
     align-items: center;
@@ -125,6 +125,14 @@ h1 {
   .our_services_cards .our_services_card {
     margin-bottom: 10% !important;
     width: 50% !important;
+  }
+  .our_client_say_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our_client_say_content .card_client_say {
+    margin-bottom: 2%;
+    width: 60% !important;
   }
 }
 @media (max-width: 600px) {
@@ -153,6 +161,12 @@ h1 {
   }
   .home_services_content .right_services_content p {
     width: 100% !important;
+  }
+  .img-box {
+    width: 50% !important;
+  }
+  .img-box img {
+    width: 70% !important;
   }
 }
 /*****************************************end media quieries*******************************************/
@@ -228,7 +242,6 @@ h1 {
 /*****************************************start our client syles**************************************/
 .img-box {
   width: 125px;
-  min-width: 125px;
   margin-right: 15px;
 }
 .img-box img {
@@ -237,6 +250,10 @@ h1 {
 
 .client_detail {
   width: 80%;
+}
+
+.btn_client {
+  width: 50px;
 }
 
 /*# sourceMappingURL=sass.css.map */

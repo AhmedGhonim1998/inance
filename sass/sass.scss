@@ -32,48 +32,48 @@
 /*****************************************end rebair styles*******************************************/
 /***********************************start rebair,improve, maitain section-****************************/
 
-.repair_imp_main{
-    transform: translateY(-50%);
+.repair_imp_main {
+  transform: translateY(-50%);
 }
 /***********************************end rebair,improve, maitain section-****************************/
 /*****************************************start about us styles*******************************************/
-.left_about_content{
-    p{
-        width: 90%;
-        font-size: .9rem;
-    }
+.left_about_content {
+  p {
+    width: 90%;
+    font-size: 0.9rem;
+  }
 }
-.right_about_content{
-    img{
-        width: 600px;
-    }
+.right_about_content {
+  img {
+    width: 600px;
+  }
 }
 /*****************************************end about us styles*******************************************/
 /*****************************************start home services*******************************************/
-.home_services{
+.home_services {
   background-color: $primary_bg_color;
-  .home_services_content{
-    img{
+  .home_services_content {
+    img {
       width: 450px;
     }
   }
-  .right_services_content{
+  .right_services_content {
     width: 40%;
-    h1{
+    h1 {
       width: 80%;
     }
-    p{
-      font-size: .9rem;
+    p {
+      font-size: 0.9rem;
       width: 90%;
     }
   }
 }
 /*****************************************end home services*******************************************/
 /*****************************************start our services syles************************************/
-.our_services_card{
-  .img_content{
-    p{
-      &:first-child{
+.our_services_card {
+  .img_content {
+    p {
+      &:first-child {
         font-weight: bold;
       }
     }
@@ -81,18 +81,16 @@
 }
 /*****************************************end our services syles**************************************/
 /*****************************************start our client syles**************************************/
-.img-box{
+.img-box {
   width: 125px;
-    min-width: 125px;
-    margin-right: 15px;
-    img{
-      border-radius: 50% !important;
+  margin-right: 15px;
+  img {
+    border-radius: 50% !important;
+  }
 }
-}
-.client_detail{
+.client_detail {
   width: 80%;
 }
-.client_id{
-  // width: 60%;
+.btn_client {
+  width: 50px;
 }
-
