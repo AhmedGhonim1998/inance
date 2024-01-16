@@ -49,3 +49,25 @@
     }
 }
 /*****************************************end about us styles*******************************************/
+/*****************************************start home services*******************************************/
+.home_services{
+  background-color: $primary_bg_color;
+  .home_services_content{
+    img{
+      width: 450px;
+    }
+  }
+  .right_services_content{
+    width: 40%;
+    h1{
+      width: 80%;
+    }
+    p{
+      font-size: .9rem;
+      width: 90%;
+    }
+  }
+}
+/*****************************************end home services*******************************************/
+
+

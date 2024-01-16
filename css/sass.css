@@ -8,6 +8,7 @@ body {
 .btn-primary {
   background-color: #ff8a1d;
   transition: 0.2s;
+  border-radius: 0px;
   border: none;
   width: 150px;
 }
@@ -142,5 +143,24 @@ h1 {
 }
 
 /*****************************************end about us styles*******************************************/
+/*****************************************start home services*******************************************/
+.home_services {
+  background-color: #d1e3ff;
+}
+.home_services .home_services_content img {
+  width: 450px;
+}
+.home_services .right_services_content {
+  width: 40%;
+}
+.home_services .right_services_content h1 {
+  width: 80%;
+}
+.home_services .right_services_content p {
+  font-size: 0.9rem;
+  width: 90%;
+}
+
+/*****************************************end home services*******************************************/
 
 /*# sourceMappingURL=sass.css.map */
