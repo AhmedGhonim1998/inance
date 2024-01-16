@@ -83,6 +83,23 @@ h1 {
       }
     }
   }
+  .right_services_content{
+    width: 60%;
+    h1{
+      width: 100% !important;
+      font-size: 1.5rem !important;
+    }
+    p{
+      width: 100% !important;
+      font-size: .8rem !important;
+    }
+  }
+  .left_img_content{
+    width: 40% !important;
+    img{
+        width: 80% !important;
+    }
+  }
 }
 @media (max-width: 600px) {
   :root {
@@ -91,5 +108,24 @@ h1 {
   .rebair_navBar {
     flex-direction: column;
     align-items: center;
+  }
+  .home_services_content{
+    flex-direction: column;
+    align-items: center;
+    .left_img_content{
+      width: 75% !important;
+      img{
+          width: 80% !important;
+      }
+    }
+    .right_services_content{
+      width: 75% !important;
+      h1{
+        width: 100% !important;
+      }
+      p{
+        width: 100% !important;
+      }
+    }
   }
 }
