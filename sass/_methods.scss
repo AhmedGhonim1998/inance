@@ -41,6 +41,37 @@ h1 {
   width: 40% !important;
   @extend %card_styles;
 }
+footer {
+  .img-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: $white_color;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 80px;
+    background-color: $blue_color;
+    color: $white_color;
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover {
+      background-color: $orange_color;
+    }
+  }
+  a {
+    text-decoration: none;
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        margin-top: 25px;
+        color: $white_color;
+      }
+    }
+  }
+}
 /*******************************************inheritance styles*******************************************/
 %card_styles {
   width: 25%;
